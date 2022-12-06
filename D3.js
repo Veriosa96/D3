@@ -107,6 +107,15 @@ console.log(typeof valore);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const first = [1, 2, 3, 4];
+const second = [6, 7, 8, 9];
+if ((second, first < 10)) {
+  console.log("Meno di 10");
+} else if (first < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -116,6 +125,7 @@ const me = {
   name: "John",
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
+  city: "toronto",
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
